@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Payslip Automator — CPI ClickPay",
-  description: "Auto-fetch and email your CPI ClickPay payslip every 13th and 28th",
+  title: "Payslip Automator — FOUNDEVER",
+  description: "Automatically send your payslip to your email every 13th and 28th",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

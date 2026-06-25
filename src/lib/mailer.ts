@@ -108,8 +108,8 @@ export async function sendPayslipEmail(
 <body>
   <div class="container">
     <div class="header">
-      <h1>Your Payslip is Ready 🎉</h1>
-      <p>CPI Outsourcing – ClickPay Payroll</p>
+      <h1>May sahod na! 🎉</h1>
+      <p>Foundever Payroll</p>
     </div>
     <div class="body">
       <p>Hi there,</p>
@@ -126,7 +126,7 @@ export async function sendPayslipEmail(
 </html>`;
 
     const info = await transporter.sendMail({
-      from: `"Payslip Automator" <${cfg.from}>`,
+      from: `"Payslip Automated" <${cfg.from}>`,
       to: cfg.to,
       subject: `🧾 Payslip: ${periodLabel} — ${dateLabel}`,
       html: emailHtml,

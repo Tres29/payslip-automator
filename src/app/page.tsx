@@ -28,7 +28,7 @@ export default function HomePage() {
           </div>
           <div>
             <h1 className="text-sm font-semibold text-white">Payslip Automator</h1>
-            <p className="text-xs text-[#8b949e]">CPI ClickPay</p>
+            <p className="text-xs text-[#8b949e]">Foundever Payroll</p>
           </div>
         </div>
         <Link href="/settings" className="btn-secondary text-xs py-1.5 px-3">
@@ -47,9 +47,9 @@ export default function HomePage() {
                 <div className="w-2 h-2 rounded-full bg-[#4ade80] ping-slow" />
                 <span className="text-xs text-[#4ade80] font-medium uppercase tracking-wide">Automator Active</span>
               </div>
-              <h2 className="text-2xl font-bold text-white mb-1">Auto Payslip Delivery</h2>
+              <h2 className="text-2xl font-bold text-white mb-1">Automated Payslip</h2>
               <p className="text-[#8b949e] text-sm max-w-md">
-                Your payslip is automatically fetched from CPI ClickPay and emailed to you on the{" "}
+                Your payslip is automatically send and emailed to you on the{" "}
                 <span className="text-white font-medium">13th</span> and{" "}
                 <span className="text-white font-medium">28th</span> of every month.
               </p>
